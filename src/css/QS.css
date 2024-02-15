@@ -1,0 +1,98 @@
+.cardqs {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 81rem;
+    height: 650px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    /*background-color: rgba(245, 245, 220, 0.91) ;*/
+    background-color: rgba(22, 22, 22, 0.81) ;
+}
+
+.titulo3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.infouno, .infodos, .infotres, .infocuatro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width:8rem;
+    margin-left: 1rem;
+}
+
+.parrafoQS {
+    font-size: 21px;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.6;
+    width: 55rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.textoInicial{
+    width: 13rem;
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .cardqs {
+        margin: 0 auto; /* Center horizontally on all screen sizes */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: rgba(22, 22, 22, 0.81); /* Adjust as needed */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .titulo3 {
+        font-size: 25px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 34px;
+    
+    }
+      
+      @media (max-width: 768px) {
+        .cardqs {
+          width: 100%; /* Fill full width on smaller screens */
+          height: auto; /* Allow dynamic height */
+        }
+      
+        .parrafoQS {
+          width: 100%; /* Text wraps on narrow screens */
+          margin: 0 1rem; /* Adjust margins for smaller content area */
+        }
+      
+        .titulo3, .textoInicial {
+          font-size: 1.5rem; /* Adjust font size for better readability */
+        }
+      
+        .icon {
+          width: 5rem; /* Reduce icon size to fit smaller screens */
+        }
+      
+        .infouno, .infodos, .infotres, .infocuatro {
+          flex-direction: column; /* Stack elements vertically */
+          margin-bottom: 15px; /* Adjust spacing for vertical layout */
+        }
+      }
+      
+}

@@ -1,0 +1,115 @@
+.articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .articulos h1 {
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+    background-color: rgba(31, 54, 169, 0.815);
+  }
+  
+  .card-contentun {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .card-contentun .card-title {
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+  
+  .card-contentun .card-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .card-contentun .card-description {
+    font-size: 1.5em;
+  }
+
+.tituloarticulos{
+  color: rgb(255, 0, 0);
+}
+
+@media (max-width: 768px) {
+
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; /* Allows columns on smaller screens */
+    justify-content: center; /* Center horizontally on all screens */
+    margin: 0 auto; /* Remove default margin for centering */
+    padding: 20px; /* Add some padding for content breathing room */
+  }
+
+  .articulos h1 {
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Start with a fixed width */
+    margin: 10px; /* Add margin for spacing */
+    background-color: rgba(31, 54, 169, 0.815);
+    text-decoration: none;
+    color: inherit;
+    border-radius: 5px; /* Add subtle rounded corners */
+  }
+  
+  @media (max-width: 768px) {
+    .articulos {
+      flex-direction: column; /* Stack cards vertically on narrow screens */
+    }
+  
+    .card {
+      width: 100%; /* Fill full width on smaller screens */
+    }
+  
+    .card-contentun {
+      flex-direction: column; /* Stack card content on small screens */
+      margin-bottom: 15px; /* Adjust spacing for stacked content */
+    }
+  
+    .card-img {
+      width: 80px; /* Reduce image size on narrow screens */
+      height: 80px;
+    }
+  
+    .card-title, .card-description {
+      font-size: 1.2em; /* Adjust font size for improved readability */
+    }
+  }
+  
+  .tituloarticulos {
+    color: rgb(255, 0, 0);
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+  --imageWidth: 200px;
+}
+
+.image-bar {
+  display: flex;
+  overflow: hidden;
+  animation: scrollLeft 10s linear infinite;
+}
+
+.image-bar__image {
+  flex: 0 0 var(--imageWidth);
+  height: var(--imageWidth);
+  object-fit: cover;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--imageWidth) * var(--imageCount)));
+  }
+}

@@ -1,0 +1,62 @@
+.textobarm {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.BarraMarcas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /*background-color: #242323;*/
+    /*background-color: #8b0f0f;*/
+    background-color:rgb(255, 255, 255) ;
+    position: absolute;
+    left: 0;
+    bottom: -21%;
+    animation: mover 28s linear infinite;
+  }
+  
+  .BarraMarcas img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 5rem;
+  }
+
+  @keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-57.5%); }
+  }
+
+  @media (max-width: 1300px) {
+    .BarraMarcas {
+      position: absolute;
+      left: 0;
+      bottom: -30%;
+    }
+
+    .textobarm {
+      position: absolute;
+      bottom: -10%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .BarraMarcas {
+      display: none;
+    }
+
+    .textobarm {
+      position: absolute;
+      bottom: -10%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }

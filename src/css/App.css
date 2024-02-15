@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /*font-family: 'Rubik', sans-serif;*/
+    font-family: 'Roboto Slab', serif;
+    justify-content: center ;
+    align-items: center;
+    background: /*linear-gradient(to right, rgba(177, 174, 174, 0.457), rgb(255, 255, 255)),*/ url('/src/assets/fondo1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.Text-Box{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.camera{
+    position: absolute;
+    transform: rotate(180deg);
+    top: -12rem;
+    right : 10px;
+    scale: 0.13;
+    z-index: 6;
+}
+
+.cardText{
+  background-color: rgba(22, 22, 22, 0.81) ;
+}
+.Cameraa{
+  position: fixed;
+  top: 0rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 6;
+}
+.semicircle2 {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  background-color: #00000082;
+  border-radius: 10rem 10rem 10rem 10rem;
+  margin-left:40px;
+  position: relative;
+  top: -2rem;
+  z-index: 2;
+}
+.semicircle1 {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 10rem 10rem 10rem 10rem;
+  margin-left:3rem;
+  position:relative;
+  top: -6rem;
+  z-index: 0;
+}
+.semicircle3 {
+  width: 2rem;
+  height: 2rem;
+  background-color: #2e0d83;
+  border-radius: 10rem 10rem 10rem 10rem;
+  
+  position:fixed;
+  
+  top:3.2rem;
+  margin-left:4rem;
+
+  z-index: 3;
+  border: 5px solid black; /* Añade un borde negro */
+  animation: movimientoCamara 3s alternate infinite linear;
+}
+.Base{
+  width: 8rem;
+  height: 3rem;
+  margin-left: 1rem;
+  background-color: #000;
+  border-radius: 5rem 5rem 5rem 5rem;
+  z-index: 2  ;
+}
+
+@keyframes parpadeo {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.luz-grabacion {
+  position: fixed;
+  margin-left: 4.7rem;
+  top: 0.9rem;
+  z-index: 5;
+  width: 10px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: red;
+  animation: parpadeo 1s infinite;
+}
+
+
+@keyframes movimientoCamara {
+  0% { margin-left: 3.5rem; top: 3.2rem; width: 1.9rem;}
+  50% { margin-left: 4rem; top: 3.2rem; width: 2rem; }
+  100% { margin-left: 4.5rem; top: 3.2rem; width: 1.8rem;}
+}
+
+.camaracuatro{
+  position: fixed;
+  width: 8rem;
+  top:2rem;
+}
+
+.luz-grabaciondos {
+  position: fixed;
+  margin-left: 6.2rem;
+  top: 5.6rem;
+  z-index: 5;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  animation: parpadeo 1s infinite;
+}
+
+@media (max-width: 768px) {
+  .navCont {
+    display: none;
+  }
+  .textobarm {
+    display: none;
+  }
+  .carrusel {
+    display: flex;
+    
+    overflow: visible; /* Permite que las imágenes se vean por completo cuando se agrandan */
+    margin-top: 2.3rem;
+    /*margin-left: auto;*/
+    background-color: rgba(40, 40, 48, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    height: auto;
+    flex-direction: column;
+}
+
+.carrusel img {
+    transition: transform 1s;
+    width: 8rem;
+    height: 5rem;
+    object-fit: cover; /* Asegura que las imágenes mantengan su aspecto al cambiar de tamaño */
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media (min-width: 768px) {
+  .navcenterbutton {
+    display: none;
+  }
+}

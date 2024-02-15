@@ -1,0 +1,42 @@
+.servicios {
+    /*background-color: rgba(22, 22, 22, 0.81) ;  Blanco con un 80% de opacidad */
+    background-color: rgba(31, 54, 169, 0.815);
+    padding-right: 34px;
+    padding-left: 34px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.servicios ul{
+    padding: 0;
+}
+
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+
+}
+
+.servicio {
+    background-color: rgb(22, 22, 22) ; /* Blanco con un 90% de opacidad */
+    padding: 81px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+}
+
+.servicio h2 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}

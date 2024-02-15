@@ -1,0 +1,62 @@
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto Slab', sans-serif;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 54, 169, 0.815);
+    color: white;
+    width: 50%;
+    padding: 2rem;
+    
+  }
+  
+  .contact-info h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .infocincoo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 300px;
+    justify-content: flex-start; /* Asegura que los elementos dentro de .infocincoo estén distribuidos uniformemente */
+  }
+  
+  .icontact {
+    width:3rem;
+    margin-right: 1rem;
+  }
+  
+  .textoInicial {
+    margin-left: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(31, 54, 169, 0.815);
+      color: white;
+      width: 80%;
+      padding: 3rem;
+      
+    }
+  }
