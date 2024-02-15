@@ -5,7 +5,7 @@ import telimg from '/src/icons/tel.png'
 import mapaimg from '/src/icons/mapa.png'
 import relojimg from '/src/icons/reloj.png'
 import NavBarSecurity from '../components/NavBarSecurity';
-import BarraMarcas from '../components/BarraMarcas';
+
 import NavbarResponsive from "../components/NavBarResponsive"
 
 const Contacto = () => (
@@ -38,7 +38,6 @@ const Contacto = () => (
     
   </div>
 
-  <BarraMarcas></BarraMarcas>
   </>
 );
 
