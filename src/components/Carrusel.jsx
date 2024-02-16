@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import '/src/css/CarruselComponent.css'
 
 export default function Carrusel() {
-    const [description, setDescription] = useState('Servicios Profesionales de Cámaras de Seguridad y Conectividad');
+    const [description, setDescription] = useState('Dearrollo de proyectos en Telecomunicaciones, Conectividad y redes, camras de seguridad  ');
 
   return (
     <>
     <div className='carrusel'>
         <img className='img1' src='./src/images/1.jpg' onMouseEnter={(e)=> setDescription('Instalacion de camaras')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')}></img>
         <img className='img2' src='./src/images/2.jpg' onMouseEnter={(e)=> setDescription('Analisis de señales y conectividad')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
-        <img className='img3' src='./src/images/3.jpg' onMouseEnter={(e)=> setDescription('Cableado y redes locales')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
+        <img className='img3' src='./src/images/3.jpg' onMouseEnter={(e)=> setDescription('Conectividad en redes alambricas e inalambricas, locales y remotas')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
         <img className='img4' src='./src/images/4.jpg' onMouseEnter={(e)=> setDescription('Monitoreo en tiempo real 24/7')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
         <img className='img5' src='./src/images/5.jpg' onMouseEnter={(e)=> setDescription('Inteligencia Artifical en el monitoreo')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
     </div>

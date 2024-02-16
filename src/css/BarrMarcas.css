@@ -14,9 +14,9 @@
     /*background-color: #242323;*/
     /*background-color: #8b0f0f;*/
     background-color:rgb(255, 255, 255) ;
-    position: absolute;
+    position: fixed;
     left: 0;
-    bottom: -21%;
+    bottom:0;
     animation: mover 28s linear infinite;
   }
   

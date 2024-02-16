@@ -39,7 +39,7 @@ const BlogPostTwo = () => (
           <strong>Montaje de las cámaras:</strong> Fijaremos las cámaras en los lugares seleccionados utilizando los soportes adecuados. Asegúraremos que las cámaras estén bien niveladas y apuntadas hacia la dirección deseada.
         </li>
         <li>
-          <strong>Conexión del cableado:</strong> Conectaremos las cámaras al grabador utilizando cables coaxiales (para sistemas analógicos) o cables Ethernet (para sistemas IP). Asegúrandonos de realizar conexiones seguras y proteger los cables contra daños.
+          <strong>Conexión del cableado:</strong> Conectaremos las cámaras al grabador utilizando cableado de alta fidelidad (para sistemas analógicos) o cables Ethernet (para sistemas IP). Asegúrandonos de realizar conexiones seguras y proteger los cables contra daños.
         </li>
         <li>
           <strong>Configuración del grabador:</strong> Configuraremos el grabador para ajustar la calidad de imagen, el tiempo de grabación, la detección de movimiento y otras opciones.

@@ -1,4 +1,5 @@
 
+import BarraMarcas from "../components/BarraMarcas"
 import NavbarResponsive from "../components/NavBarResponsive"
 import Carrusel from "/src/components/Carrusel"
 import NavBarSecurity from "/src/components/NavBarSecurity"
@@ -20,6 +21,7 @@ function Home() {
         <NavbarResponsive /> <NavBarSecurity/>
         <Carrusel></Carrusel>
         <Link to='/contact' style={{ display: 'flex', justifyContent: 'center' }}><button className="custom-btn btn-1">¡Me interesa!</button></Link>
+        <BarraMarcas></BarraMarcas>
         
     </>
   )

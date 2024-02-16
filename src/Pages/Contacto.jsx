@@ -21,7 +21,7 @@ const Contacto = () => (
       
       <div className='infocincoo'>
       <img className='icontact' src={telimg}></img>
-      <p className='textoInicial'>+1(585) 902 9665</p>
+      <p className='textoInicial'>+9 5667 7421</p>
       </div>
 
       <div className='infocincoo'>
@@ -31,7 +31,7 @@ const Contacto = () => (
 
       <div className='infocincoo'>
       <img className='icontact' src={relojimg}></img>
-      <p className='textoInicial'>oficinas abiertas desde 08:00 hasta 20:00</p>
+      <p className='textoInicial'>oficinas abiertas desde 08:00 hasta 17:00 hrs</p>
       </div>
       
     </div>
