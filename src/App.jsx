@@ -8,8 +8,6 @@ import BlogPostTwo from './Articulos/BlogPostTwo'
 import BlogPostThree from './Articulos/BlogPostThree'
 import Contacto from './Pages/Contacto'
 import Marcas from './components/Marcas'
-import BarBrands from './components/BarBrands'
-import Baar from './components/Baar'
 import BarraMarcas from './components/BarraMarcas'
 
 function App() {

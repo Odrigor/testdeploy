@@ -29,7 +29,7 @@
 
   @keyframes mover {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-57.5%); }
+    100% { transform: translateX(-57.1%); }
   }
 
   @media (max-width: 1300px) {

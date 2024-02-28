@@ -22,16 +22,16 @@ function Servicios() {
                     <p>Ofrecemos servicios de monitoreo las 24 horas del día, los 7 días de la semana, donde supervisamos activamente las cámaras de seguridad y alertamos a los propietarios o a las autoridades si detectamos alguna actividad sospechosa, apoyados en una plataforma de conectividad y redes con Inteligencia Artificial de primer nivel.</p>
                 </li>
                 <li className="servicio">
-                    <h2>Soporte Tecnico y mantenimiento continuo</h2>
+                    <h2>Soporte técnico y mantenimiento continuo</h2>
                     <p>Ofrecemos servicios de mantenimiento y reparación para asegurarnos de que los sistemas de seguridad sigan funcionando correctamente de manera sostenida y continua.</p>
                 </li>
                 <li className="servicio">
                     <h2>Consultoría de seguridad</h2>
-                    <p>Este servicio puede incluir la realización de evaluaciones de riesgo, la recomendación de medidas de seguridad adecuadas en terreno proporcional a lo estandares que cada uno de los clientes solicita y en virtud del analisis ocular se pueda sugerir solucione eficientes.</p>
+                    <p>Este servicio puede incluir la realización de evaluaciones de riesgo, la recomendación de medidas de seguridad adecuadas en terreno proporcional a los estándares que cada uno de los clientes solicita y, en virtud del análisis ocular, se pueda sugerir soluciones eficientes.</p>
                 </li>
                 <li className="servicio">
                     <h2>Servicios de red</h2>
-                    <p>Consiste en el desarrollo y configuración de redes, así como la solución de problemas de red y la optimización del rendimiento de la red, en el contexto de estructuracion, livianas, asi como robustas, alambricas e inalambricas, en sitios urbanos, como asi tambien, sitios remotos.</p>
+                    <p>Consiste en el desarrollo y configuración de redes, así como la solución de problemas de red y la optimización del rendimiento de la red, en el contexto de estructuración, livianas, así como robustas, alámbricas e inalámbricas, en sitios urbanos, como así también, sitios remotos.</p>
                 </li>
             </ul>
         </div>

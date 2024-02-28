@@ -7,6 +7,7 @@ import relojimg from '/src/icons/reloj.png'
 import NavBarSecurity from '../components/NavBarSecurity';
 
 import NavbarResponsive from "../components/NavBarResponsive"
+import BarraMarcas from '../components/BarraMarcas';
 
 const Contacto = () => (
   <>
@@ -26,7 +27,7 @@ const Contacto = () => (
 
       <div className='infocincoo'>
       <img className='icontact' src={mapaimg}></img>
-      <p className='textoInicial'>Region Metropolitana, Colina, Esmeralda 600-398</p>
+      <p className='textoInicial'>Region Metropolitana, Colina<br/>Región de Valparaíso <br/>Los Andes <br/>San Felipe <br/>Rinconada</p>
       </div>
 
       <div className='infocincoo'>
@@ -35,7 +36,7 @@ const Contacto = () => (
       </div>
       
     </div>
-    
+    <BarraMarcas></BarraMarcas>
   </div>
 
   </>

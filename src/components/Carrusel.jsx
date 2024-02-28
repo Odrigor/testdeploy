@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
 import '/src/css/CarruselComponent.css'
 
+import fotouno from '/src/images/1.jpg'
+import fotodos from '/src/images/2.jpg'
+import fototres from '/src/images/3.jpg'
+import fotocuatro from '/src/images/4.jpg'
+import fotocinc from '/src/images/5.jpg'
+
 export default function Carrusel() {
-    const [description, setDescription] = useState('Dearrollo de proyectos en Telecomunicaciones, Conectividad y redes, camras de seguridad  ');
+    const [description, setDescription] = useState('Desarrollo de proyectos en telecomunicaciones, conectividad y redes, cámaras de seguridad');
 
   return (
     <>
     <div className='carrusel'>
-        <img className='img1' src='./src/images/1.jpg' onMouseEnter={(e)=> setDescription('Instalacion de camaras')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')}></img>
-        <img className='img2' src='./src/images/2.jpg' onMouseEnter={(e)=> setDescription('Analisis de señales y conectividad')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
-        <img className='img3' src='./src/images/3.jpg' onMouseEnter={(e)=> setDescription('Conectividad en redes alambricas e inalambricas, locales y remotas')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
-        <img className='img4' src='./src/images/4.jpg' onMouseEnter={(e)=> setDescription('Monitoreo en tiempo real 24/7')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
-        <img className='img5' src='./src/images/5.jpg' onMouseEnter={(e)=> setDescription('Inteligencia Artifical en el monitoreo')} onMouseLeave={(e)=> setDescription('Servicios Profesionales de Cámaras de Seguridad y Conectividad')} ></img>
+        <img className='img1' src={fotouno} onMouseEnter={(e)=> setDescription('Instalación de cámaras de seguridad')} onMouseLeave={(e)=> setDescription('Desarrollo de proyectos en telecomunicaciones, conectividad y redes, cámaras de seguridad')}></img>
+        <img className='img2' src={fotodos} onMouseEnter={(e)=> setDescription('Análisis de señales y conectividad')} onMouseLeave={(e)=> setDescription('Desarrollo de proyectos en telecomunicaciones, conectividad y redes, cámaras de seguridad')} ></img>
+        <img className='img3' src={fototres} onMouseEnter={(e)=> setDescription('Conectividad en redes alámbricas e inalámbricas, locales y remotas')} onMouseLeave={(e)=> setDescription('Desarrollo de proyectos en telecomunicaciones, conectividad y redes, cámaras de seguridad')} ></img>
+        <img className='img4' src={fotocuatro} onMouseEnter={(e)=> setDescription('Monitoreo en tiempo real 24/7')} onMouseLeave={(e)=> setDescription('Desarrollo de proyectos en telecomunicaciones, conectividad y redes, cámaras de seguridad')} ></img>
+        <img className='img5' src={fotocinc} onMouseEnter={(e)=> setDescription('Inteligencia artificial en el monitoreo')} onMouseLeave={(e)=> setDescription('Desarrollo de proyectos en telecomunicaciones, conectividad y redes, cámaras de seguridad')} ></img>
     </div>
     {/* <p className='description'>{description}</p>*/}
     <div className='cardText'>

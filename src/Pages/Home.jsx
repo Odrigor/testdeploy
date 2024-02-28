@@ -20,9 +20,8 @@ function Home() {
 
         <NavbarResponsive /> <NavBarSecurity/>
         <Carrusel></Carrusel>
-        <Link to='/contact' style={{ display: 'flex', justifyContent: 'center' }}><button className="custom-btn btn-1">¡Me interesa!</button></Link>
-        <BarraMarcas></BarraMarcas>
         
+        <BarraMarcas></BarraMarcas>
     </>
   )
 }

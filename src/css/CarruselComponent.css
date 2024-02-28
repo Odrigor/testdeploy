@@ -48,9 +48,10 @@
     position: relative;
     margin-left: 5rem;
     margin-right: 5rem;
-    text-justify: auto;
+    text-align: justify;
     font-size: 1.35rem ;
     color: rgb(255, 255, 255);
+    
 }
 
 .cardText{

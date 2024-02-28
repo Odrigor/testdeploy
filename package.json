@@ -1,5 +1,6 @@
 {
   "name": "securitycamerasweb",
+  "homepage":"https://tecnosecuritydata.cl/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
